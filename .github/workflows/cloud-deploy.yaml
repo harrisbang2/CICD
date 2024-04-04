@@ -13,12 +13,12 @@ jobs:
       - name: Connect deploy key
         uses: cloudtype-github-actions/connect@v1
         with:
-          token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          ghtoken: ${{ secrets.GHP_TOKEN }}
+          token: ${{secrets.CLOUDTYPE_TOKEN}}
+          ghtoken: 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
       - name: Deploy
         uses: cloudtype-github-actions/deploy@v1
         with:
-          token: ${{ secrets.CLOUDTYPE_TOKEN }}
+          token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIyYWF0MmNsdWt1NmpndSIsImlhdCI6MTcxMjIxMjYzNH0.uC4JPs94qHMyKTOY78Edk7AB8Zp7A6vLxjY6CHCzU5A
           project: harrisbang2/CICD
           stage: main
           yaml: |
