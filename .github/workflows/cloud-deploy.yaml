@@ -19,7 +19,7 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIyYWF0MmNsdWt1NmpndSIsImlhdCI6MTcxMjIxMjYzNH0.uC4JPs94qHMyKTOY78Edk7AB8Zp7A6vLxjY6CHCzU5A
-          project: harrisbang2/CICD
+          project: harrisbang/CICD
           stage: main
           yaml: |
             name: cicd
